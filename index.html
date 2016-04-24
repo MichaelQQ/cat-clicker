@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cat Clicker</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <h1>Cat Clicker</h1>
+
+  <!-- side list -->
+  <div id="list">
+    <h2>Cat List</h2>
+    <div id="list-item"></div>
+  </div>
+
+  <!-- card -->
+  <div id="card" class="cat">
+    <h3 id="card-name"></h3>
+    <a href="#">
+      <img id="card-img" src=" " />
+    </a>
+    <div>Number of clicks: <span id="card-num"></span></div>
+
+    <!-- edit form -->
+    <button id="card-edit">Edit</button>
+    <div id="form">
+      <label for="form-name">Name: </label><input id="form-name" type="text"><br>
+      <label for="form-url">Img URL: </label><input id="form-url" type="url"><br>
+      <label for="form-click">Clicks: </label><input id="form-click" type="text"><br>
+      <button id="submit">submit</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+  font-family: serif;
+  text-align: center;
+}
+
+#list {
+  min-width: 150px;
+  max-width: 200px;
+  width: 25%;
+  display: inline-block;
+  background-color: #EEFFFF;
+  vertical-align: top;
+  margin: 5px;
+}
+
+#list > h2 {
+  line-height: 0;
+}
+
+#list div {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+#list-item div:hover {
+  opacity: 0.5;
+}
+
+#list a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#card {
+  width: 70%;
+  display: inline-block;
+}
+
+#card-edit {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.cat {
+  min-width: 250px;
+  max-width: 300px;
+  /*height: 250px;*/
+  background-color: #EEEEEE;
+  display: inline-block;
+  padding: 0 10px;
+  overflow: hidden;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+.cat h3 {
+  line-height: 0;
+}
+
+.cat img {
+  display: block;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.cat img:hover{
+  opacity: 0.6;
+}
+
+#form {
+  text-align: left;
+  display: none;
+}
+
+#form input {
+  width: 100%;
+}
